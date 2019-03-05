@@ -1,0 +1,29 @@
+{
+    "name": "sanmark/laravel-standard-json-responses",
+    "description": "Library for preparing standardized JSON responses for REST APIs.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ranga Lakshitha",
+            "email": "ranga@thesanmark.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sanmark\\LaravelStandardJsonResponses\\LaravelStandardJsonResponsesServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sanmark\\LaravelStandardJsonResponses\\": "src/"
+        }
+    }
+}
+
