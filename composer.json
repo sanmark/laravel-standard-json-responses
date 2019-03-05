@@ -12,6 +12,18 @@
             "email": "ranga@thesanmark.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sanmark\\LaravelStandardJsonResponses\\LaravelStandardJsonResponsesServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sanmark\\LaravelStandardJsonResponses\\": "src/"
+        }
+    }
 }
 
