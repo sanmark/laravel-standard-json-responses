@@ -18,10 +18,13 @@ class SuccessResponse
     public function getResponse()
     {
         $response = response()
-            -> json([
-                'data' => $this -> data ,
-            ])
-            -> setStatusCode($this -> statusCode)
+            ->json([
+                    'data' => $this ->data,
+                ],
+                $this -> statusCode,
+                [],
+                JSON_PRESERVE_ZERO_FRACTION
+            )
         ;
 
         foreach($this->headers as $key => $value){
