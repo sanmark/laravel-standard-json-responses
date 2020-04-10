@@ -3,7 +3,7 @@
     "description": "Library for preparing standardized JSON responses for REST APIs.",
     "type": "library",
     "require": {
-        "laravel/framework": "^5.8 || ^6.0"
+        "laravel/framework": "^5.8 || ~6 || ~7"
     },
     "license": "MIT",
     "authors": [
