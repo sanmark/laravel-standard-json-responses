@@ -3,13 +3,19 @@
     "description": "Library for preparing standardized JSON responses for REST APIs.",
     "type": "library",
     "require": {
-        "laravel/framework": "^5.8 || ~6 || ~7"
+        "laravel/framework": "^5.8 || ~6 || ~7 || ~8"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Ranga Lakshitha",
             "email": "ranga@thesanmark.com"
+        },
+        {
+            "name": "Supun Budhajeewa",
+            "email": "budhajeewa@thesanmark.com",
+            "homepage": "https://budhajeewa.com",
+            "role": "Project Manager"
         }
     ],
     "minimum-stability": "stable",
